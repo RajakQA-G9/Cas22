@@ -54,3 +54,7 @@ while(loop) {
     }
 }
 console.log("Done. counter = " + counter);
+
+for (let j = 0; j < 10; j++) {
+    
+}

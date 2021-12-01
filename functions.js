@@ -28,3 +28,9 @@ function callOtherFunctions() {
 
 callOtherFunctions();
 
+// Function Expression
+let nekaFunkcija = function(num1, num2) {
+    console.log(num1 + num2);
+}
+
+nekaFunkcija(2, 3);
