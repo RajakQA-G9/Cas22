@@ -87,3 +87,18 @@ korisnik.name = "fff";
 
 console.log(korisnik.name);
 console.log(korisnik._name);
+
+class mojaKlasa {
+    static staticMethod() {
+        return "staticMethod() called";
+    }
+
+    nonStaticMethod() {
+        return "nonStaticMethod() called";
+    }
+}
+
+console.log(mojaKlasa.staticMethod());
+
+let instancaKlase = new mojaKlasa();
+console.log(instancaKlase.nonStaticMethod());
